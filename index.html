@@ -7,20 +7,166 @@
   <title>My Portfolio</title>
   <link rel="stylesheet" href="styles.css">
 
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+
+  
 </head>
 
 <body>
 
-  <header class="header">
-   
-      <img class="profile-image rounded-circle img-fluid" src="images/coding-g101ef4715_640.jpeg" alt="profile image" width="200" height="200"/>
-      <div class="profile-content">
-        <h1 class="name">O Mon</h1>
-        <h2 class="desc">Frontend Web Developer</h2>
-      
+  <header class="header bg-light py-4">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-3">
+          <img class="profile-image rounded-circle img-fluid" src="images/coding-g101ef4715_640.jpeg" alt="profile image" width="200" height="200" />
+        </div>
+        <div class="col-md-9">
+          <div class="profile-content">
+            <h1 class="name">Front-End React Developer</h1>
+            <h2 class="desc">Hi, I'm Ol Mo. A passionate Front-End React Developer based in Orlando, FL</h2>
+            <p>
+              <a href="mailto:your-email@example.com" class="email-link">
+                <i class="fa fa-envelope"></i>
+                <span class="email-address">your-email@example.com</span>
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
   </header>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0/js/bootstrap.min.js"></script>
+
+  <section class="container mt-3">
+    <div class="row align-items-center justify-content-center">
+      <div class="col-12">
+        <div class="d-flex align-items-center justify-content-center">
+          <h2 class="text-start me-3">Tech Stack</h2>
+          <div class="ms-5 icon-container">
+            <svg class="icon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 1024 1024">
+              
+              <path fill="#e34f26" d="M64 0h896l-81.493 920.021-367.488 103.979-365.397-104.021zM363.989 416l-9.899-115.968 429.184 0.128 9.813-111.872-562.176-0.128 29.781 341.76h389.376l-13.909 146.176-124.16 34.304-126.080-34.56-8.021-90.027h-111.317l14.080 177.963 231.339 61.867 229.504-61.568 31.744-348.032z"></path>
+          </svg>
+          <svg class="icon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 1024 1024">
+           
+            <path fill="#1572b6" d="M64 0h896l-81.493 920.021-367.488 103.979-365.44-104.021zM793.173 188.288l-562.347-0.128 9.088 111.872 432 0.085-10.88 115.883h-283.307l10.24 109.781h263.765l-15.616 150.315-124.16 34.304-126.123-34.56-8.021-90.027h-111.36l12.373 164.48 233.173 72.661 229.248-65.28z"></path>
+            </svg>
+            <svg class="icon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 1024 1024">
+              
+              <path fill="#f7df1e" d="M0 0h1024v1024h-1024zM940.117 779.776c-7.467-46.72-37.888-85.973-128.128-122.581-31.403-14.72-66.304-24.96-76.672-48.64-3.883-14.080-4.48-21.76-1.963-30.080 6.4-27.563 39.040-35.84 64.64-28.16 16.64 5.12 32 17.92 41.643 38.4 44.117-28.843 44.117-28.843 74.88-48-11.52-17.92-17.237-25.643-25.003-33.28-26.88-30.080-62.677-45.44-120.917-44.117l-30.080 3.797c-28.843 7.040-56.32 22.4-72.96 42.88-48.64 55.083-34.603 151.083 24.277 190.763 58.24 43.52 143.403 53.077 154.283 94.080 10.24 49.92-37.12 65.92-83.883 60.16-34.603-7.68-53.76-25.003-74.88-57.003l-78.080 44.843c8.96 20.48 19.2 29.397 34.56 47.317 74.24 74.923 259.84 71.083 293.163-42.837 1.237-3.84 10.24-30.080 3.157-70.4zM556.843 470.656h-95.915c0 82.688-0.384 164.864-0.384 247.68 0 52.565 2.688 100.821-5.888 115.669-14.080 29.397-50.347 25.643-66.816 20.48-16.896-8.363-25.472-19.883-35.413-36.48-2.688-4.48-4.693-8.363-5.419-8.363l-77.867 48c13.013 26.88 32 50.005 56.491 64.725 36.48 21.76 85.504 28.8 136.832 17.28 33.408-9.643 62.208-29.483 77.269-60.203 21.76-39.68 17.152-88.32 16.939-142.763 0.512-87.637 0-175.317 0-263.637z"></path>
+          </svg>
+          <svg class="icon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 1024 1024">
+            <title>Sass</title>
+            <path fill="#c69" d="M512 0c282.752 0 512 229.248 512 512s-229.248 512-512 512-512-229.248-512-512 229.248-512 512-512zM410.24 682.581c7.467 27.52 6.656 53.248-1.024 76.459l-2.773 7.68c-1.024 2.603-2.219 5.12-3.328 7.509-5.973 12.373-13.909 23.893-23.68 34.56-29.781 32.384-71.339 44.672-89.173 34.347-19.2-11.179-9.643-56.96 24.917-93.44 37.163-39.168 90.453-64.384 90.453-64.384v-0.128zM833.109 219.179c-23.125-91.008-173.952-120.917-316.672-70.187-84.864 30.165-176.811 77.568-242.901 139.392-78.635 73.429-91.136 137.429-85.973 164.181 18.219 94.336 147.499 156.032 200.661 201.813v0.256c-15.659 7.68-130.389 65.237-157.269 124.8-28.8 62.72 4.48 107.563 26.24 113.28 67.2 18.603 136.32-15.36 173.44-70.357 35.84-53.803 32.683-122.923 17.237-156.843 21.163-5.76 46.080-8.32 78.080-4.437 89.643 10.24 107.563 66.56 103.68 89.6-3.84 22.997-22.315 36.437-28.757 40.277-6.4 3.883-8.32 5.12-7.723 7.723 0.64 3.84 3.883 3.84 8.96 3.2 7.040-1.28 46.763-19.2 48.683-62.763 1.92-55.040-50.603-116.437-144-115.2-38.4 0.683-62.763 3.883-80 10.923-1.28-1.92-2.603-3.2-4.48-4.48-57.6-62.080-164.48-105.6-160-188.16 1.28-30.080 12.16-109.397 204.8-205.397 158.080-78.763 284.203-56.96 305.963-8.96 31.275 68.437-67.243 195.84-231.723 214.357-62.72 7.040-95.36-17.237-103.723-26.24-8.917-9.6-10.197-10.24-13.397-8.277-5.12 2.56-1.92 10.88 0 16 5.12 12.8 24.96 35.2 59.563 46.72 30.037 9.6 103.68 15.317 192-19.2 99.157-38.357 176.597-145.28 154.197-234.88z"></path>
+        </svg>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+ 
+  
+
+
+ 
+  <section class="container mt-3">
+  <div class="row">
+    <div class="col-12">
+      <h2 class="text-center">My Projects</h2>
+    </div>
+  </div>
+  <div class="row d-flex align-items-stretch">
+    <!-- Project 1 -->
+    <div class="col-lg-3 col-md-6 mb-4">
+      <div class="card project h-100">
+        <div class="project-image-container">
+          <img class="card-img-top project-image" src="images/employee_directory_8.png" alt="Project Image">
+          <div class="project-overlay">
+            <a href="https://github.com/your-username/repository-name" target="_blank" rel="noopener noreferrer"></a>
+          </div>
+        </div>
+        <div class="card-body">
+          <h3 class="card-title project-title">Employee Directory</h3>
+          <p class="card-text project-description">A web app for viewing and searching employees within an organization. Utilizes Fetch API to retrieve and display employee data.</p>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Project 2 -->
+<div class="col-lg-3 col-md-6 mb-4">
+  <div class="card project h-100">
+    <div class="project-image-container">
+      <img class="card-img-top project-image" src="images/project 7.png" alt="Project Image">
+      <div class="project-overlay">
+        <a href="https://github.com/your-username/repository-name" target="_blank" rel="noopener noreferrer"></a>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3 class="card-title project-title">WebApp Dashboard</h3>
+      <p class="card-text project-description">Interactive web application dashboard featuring dynamic data visualization using SVG graphics and JavaScript programming techniques.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Project 3 -->
+<div class="col-lg-3 col-md-6 mb-4">
+  <div class="card project h-100">
+    <div class="project-image-container">
+      <img class="card-img-top project-image" src="images/gallery_mockup_5.png" alt="Project Image">
+      <div class="project-overlay">
+        <a href="https://github.com/your-username/repository-name" target="_blank" rel="noopener noreferrer"></a>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3 class="card-title project-title">Interactive Photo Gallery</h3>
+      <p class="card-text project-description">Immersive photo gallery with interactive features and engaging user experience, showcasing a curated collection of captivating images.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Project 4 -->
+<div class="col-lg-3 col-md-6 mb-4">
+  <div class="card project h-100">
+    <div class="project-image-container">
+      <img class="card-img-top project-image" src="images/desktop-form1 copy.png" alt="Project Image">
+      <div class="project-overlay">
+        <a href="https://github.com/your-username/repository-name" target="_blank" rel="noopener noreferrer"></a>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3 class="card-title project-title">Online Registration Form</h3>
+      <p class="card-text project-description">Simplified online registration form for seamless and hassle-free user enrollment, streamlining the registration process with intuitive design and user-friendly interface.</p>
+    </div>
+  </div>
+</div>
+
+  </div>
+</section>
+
+<footer class="footer bg-light">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h4>Contact Information</h4>
+        <ul>
+          <li>Email: your-email@example.com</li>
+          <li>Phone: +1 123-456-7890</li>
+          <li>
+            LinkedIn:
+            <a href="https://www.linkedin.com/" target="_blank">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
 </body>
 </html>
