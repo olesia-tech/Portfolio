@@ -16,21 +16,43 @@
 </head>
 
 <body>
-
-  <header class="header bg-light py-4">
+  
+  <header class="header bg-light py-4" id="home">
+    
     <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#projects">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
       <div class="row align-items-center">
         <div class="col-md-3">
           <img class="profile-image rounded-circle img-fluid" src="images/coding-g101ef4715_640.jpeg" alt="profile image" width="200" height="200" />
         </div>
         <div class="col-md-9">
           <div class="profile-content">
-            <h1 class="name">Front-End React Developer</h1>
-            <h2 class="desc">Hi, I'm Ol Mo. A passionate Front-End React Developer based in Orlando, FL</h2>
+            <h1 class="name">Front-End Developer</h1>
+            <h3 class="desc">Hi, I'm Olesia Monteith. A passionate Front-End Developer based in Orlando, FL</h3>
+            
             <p>
               <a href="mailto:your-email@example.com" class="email-link">
                 <i class="fa fa-envelope"></i>
-                <span class="email-address">your-email@example.com</span>
+                <span class="email-address">shikotandesigns@gmail.com</span>
               </a>
             </p>
           </div>
@@ -39,7 +61,8 @@
     </div>
   </header>
 
-  <section class="container mt-3">
+
+  <section class="container mt-3" id="stack">
     <div class="row align-items-center justify-content-center">
       <div class="col-12">
         <div class="d-flex align-items-center justify-content-center">
@@ -67,93 +90,119 @@
       </div>
     </div>
   </section>
-
- 
   
-
-
- 
-  <section class="container mt-3">
-  <div class="row">
-    <div class="col-12">
-      <h2 class="text-center">My Projects</h2>
+  <section class="container mt-3" id="projects">
+    <div class="row">
+      <div class="col-12">
+        <h2 class="text-center">My Projects</h2>
+      </div>
     </div>
-  </div>
-  <div class="row d-flex align-items-stretch">
-    <!-- Project 1 -->
-    <div class="col-lg-3 col-md-6 mb-4">
-      <div class="card project h-100">
-        <div class="project-image-container">
-          <img class="card-img-top project-image" src="images/employee_directory_8.png" alt="Project Image">
-          <div class="project-overlay">
-            <a href="https://github.com/your-username/repository-name" target="_blank" rel="noopener noreferrer"></a>
+    <div class="row">
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card project h-100">
+          <!-- Project 1 -->
+          <div class="project-image-container">
+            <a href="https://olesia-tech.github.io/Use-an-API-to-Create-an-Employee-Directory/" target="_blank" rel="noopener noreferrer">
+            <img class="card-img-top project-image" src="images/employee_directory_8.png" alt="Project Image">
+            </a>
+            <div class="project-overlay">
+            </div>
+          </div>
+          <div class="card-body">
+            <h3 class="card-title project-title">Employee Directory</h3>
+            <p class="card-text project-description">A web app for viewing and searching employees within an organization. Utilizes Fetch API to retrieve and display employee data.</p>
           </div>
         </div>
-        <div class="card-body">
-          <h3 class="card-title project-title">Employee Directory</h3>
-          <p class="card-text project-description">A web app for viewing and searching employees within an organization. Utilizes Fetch API to retrieve and display employee data.</p>
+      </div>
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card project h-100">
+          <!-- Project 2 -->
+          <div class="project-image-container">
+            <a href="https://olesia-tech.github.io/WebApp-Dashboard/" target="_blank" rel="noopener noreferrer">
+            <img class="card-img-top project-image" src="images/project 7.png" alt="Project Image">
+            </a>
+            <div class="project-overlay">
+              <a href="https://github.com/your-username/repository-name" target="_blank" rel="noopener noreferrer"></a>
+            </div>
+          </div>
+          <div class="card-body">
+            <h3 class="card-title project-title">WebApp Dashboard</h3>
+            <p class="card-text project-description">Interactive web application dashboard featuring dynamic data visualization using SVG graphics and JavaScript programming techniques.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card project h-100">
+          <!-- Project 3 -->
+          <div class="project-image-container">
+            <a href="https://olesia-tech.github.io/An-Interactive-Photo-Gallery/" target="_blank" rel="noopener noreferrer">
+            <img class="card-img-top project-image" src="images/gallery_mockup_5.png" alt="Project Image">
+            </a>
+            <div class="project-overlay">
+              
+            </div>
+          </div>
+          <div class="card-body">
+            <h3 class="card-title project-title">Interactive Photo Gallery</h3>
+            <p class="card-text project-description">Immersive photo gallery with interactive features and engaging user experience, showcasing a curated collection of captivating images.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card project h-100">
+          <!-- Project 4 -->
+          <div class="project-image-container">
+            <a href="https://olesia-tech.github.io/techdegree-project-3/" target="_blank" rel="noopener noreferrer">
+            <img class="card-img-top project-image" src="images/desktop-form1 copy.png" alt="Project Image">
+            </a>
+            <div class="project-overlay">
+            </div>
+          </div>
+          <div class="card-body">
+            <h3 class="card-title project-title">Online Registration Form</h3>
+            <p class="card-text project-description">Simplified online registration form for seamless and hassle-free user enrollment, streamlining the registration process with intuitive design and user-friendly interface.</p>
+          </div>
         </div>
       </div>
     </div>
-    
-    <!-- Project 2 -->
-<div class="col-lg-3 col-md-6 mb-4">
-  <div class="card project h-100">
-    <div class="project-image-container">
-      <img class="card-img-top project-image" src="images/project 7.png" alt="Project Image">
-      <div class="project-overlay">
-        <a href="https://github.com/your-username/repository-name" target="_blank" rel="noopener noreferrer"></a>
+  </section>
+  
+
+  <section class="container mt-3" id="contact">
+    <div class="row">
+      <div class="col-12">
+        <h2 class="text-center">Contact Me</h2>
       </div>
     </div>
-    <div class="card-body">
-      <h3 class="card-title project-title">WebApp Dashboard</h3>
-      <p class="card-text project-description">Interactive web application dashboard featuring dynamic data visualization using SVG graphics and JavaScript programming techniques.</p>
-    </div>
-  </div>
-</div>
-
-<!-- Project 3 -->
-<div class="col-lg-3 col-md-6 mb-4">
-  <div class="card project h-100">
-    <div class="project-image-container">
-      <img class="card-img-top project-image" src="images/gallery_mockup_5.png" alt="Project Image">
-      <div class="project-overlay">
-        <a href="https://github.com/your-username/repository-name" target="_blank" rel="noopener noreferrer"></a>
+    <div class="row">
+      <div class="col-md-6 offset-md-3">
+        <form id="contact-form">
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" class="form-control" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" class="form-control" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea name="message" id="message" class="form-control" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
       </div>
     </div>
-    <div class="card-body">
-      <h3 class="card-title project-title">Interactive Photo Gallery</h3>
-      <p class="card-text project-description">Immersive photo gallery with interactive features and engaging user experience, showcasing a curated collection of captivating images.</p>
-    </div>
-  </div>
-</div>
+  </section>
 
-<!-- Project 4 -->
-<div class="col-lg-3 col-md-6 mb-4">
-  <div class="card project h-100">
-    <div class="project-image-container">
-      <img class="card-img-top project-image" src="images/desktop-form1 copy.png" alt="Project Image">
-      <div class="project-overlay">
-        <a href="https://github.com/your-username/repository-name" target="_blank" rel="noopener noreferrer"></a>
-      </div>
-    </div>
-    <div class="card-body">
-      <h3 class="card-title project-title">Online Registration Form</h3>
-      <p class="card-text project-description">Simplified online registration form for seamless and hassle-free user enrollment, streamlining the registration process with intuitive design and user-friendly interface.</p>
-    </div>
-  </div>
-</div>
 
-  </div>
-</section>
-
-<footer class="footer bg-light">
+<footer class="footer bg-light" id="contact">
   <div class="container">
     <div class="row">
       <div class="col-md-12">
         <h4>Contact Information</h4>
         <ul>
-          <li>Email: your-email@example.com</li>
+          <li>Email: shikotandesigns@gmail.com</li>
           <li>Phone: +1 123-456-7890</li>
           <li>
             LinkedIn:
@@ -166,7 +215,7 @@
     </div>
   </div>
 </footer>
-
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+  <script src="app.js"></script>
 </body>
 </html>
