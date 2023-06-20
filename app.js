@@ -11,17 +11,17 @@ contactForm.addEventListener('submit', function (event) {
   })
     .then(response => response.text())
     .then(data => {
-      // Handle the response from the server
+      
       console.log(data);
-      // Display a success message to the user
+      
       alert('Message sent successfully!');
-      // Reset the form
+      
       contactForm.reset();
     })
     .catch(error => {
-      // Handle any errors that occurred during the request
+    
       console.error('Error:', error);
-      // Display an error message to the user
+    
       alert('An error occurred while sending the message. Please try again later.');
     });
 });
